@@ -1,0 +1,52 @@
+.activeimg {
+    filter: blur(2px);
+}
+
+.inactiveimg {
+    filter: none;
+}
+
+.changeimg {
+    filter: sepia();
+}
+
+.filtrouno button {
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: rgba(18, 231, 28, 0.774);
+    color: black;
+    list-style: none;
+}
+
+.filtbtnact button {
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: rgba(18, 231, 28, 0.774);
+    color: black;
+    list-style: none;
+}
+
+.filtbtn button {
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: rgba(154, 34, 209, 0.774);
+    color: black;
+    list-style: none;
+    margin: 2rem;
+}
+
+.filtimgs {
+    display: flex;
+    justify-content: center;
+}
+
+.filtimgs img{
+    width: 35%;
+    height: 35%;
+}

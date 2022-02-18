@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.ImgHeader{
+  width: 98.7vw;
+  height: 40rem;
+}
+
+.ImgHeader:hover{
+  filter: blur(2px) ;
+}

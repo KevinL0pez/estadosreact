@@ -1,0 +1,25 @@
+.BotLinks{
+    display: flex;
+    background-color: rgba(122, 23, 214);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 7vw;
+    margin-top: -1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.BotLinks a {
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: rgba(154, 34, 209, 0.774);
+    color: black;
+    margin-top: 1rem;
+}
+
+.BotLinks li {
+    list-style: none;
+    margin: 5rem;
+}
