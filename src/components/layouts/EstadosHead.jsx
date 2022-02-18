@@ -21,21 +21,21 @@ export const EstadosHead = () => {
             img2.classList.remove('changeimg')
             img2.classList.add('activeimg')
 
-            // btn1.classList.add('filtbtnact')
-            // btn1.classList.remove('filtbtn')
-            // btn2.classList.add('filtbtnact')
-            // btn2.classList.remove('filtbtn')
-
+            // btn1.classList.remove('filtbtnact')
+            // btn1.classList.add('filtbtn')
+            // btn2.classList.remove('filtbtnact')
+            // btn2.classList.add('filtbtn')
+            
         } else {
             img1.classList.add('changeimg')
             img1.classList.remove('activeimg')
             img2.classList.add('changeimg')
             img2.classList.remove('activeimg')
-
-            // btn1.classList.remove('filtbtnact')
-            // btn1.classList.add('filtbtn')
-            // btn2.classList.remove('filtbtnact')
-            // btn2.classList.add('filtbtn')
+            
+            // btn1.classList.add('filtbtnact')
+            // btn1.classList.remove('filtbtn')
+            // btn2.classList.add('filtbtnact')
+            // btn2.classList.remove('filtbtn')
         }
 
     }, [estados])
@@ -47,7 +47,7 @@ export const EstadosHead = () => {
                 <img src={perfil} alt="" id="statusimg1"/>
                 <img src={perfil} alt="" id="statusimg2"/>
             </div>
-            <div className="filtbtn">
+            <div className="filtbtnact">
                 {estados === false &&<button onClick={visualizar} id="statusbtn1">Habilitar</button>}
                 {estados && <button onClick={esconder} id="statusbtn2">Deshabilitar</button>}
             </div>
