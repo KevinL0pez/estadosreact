@@ -6,6 +6,7 @@ import { Home } from './components/pages/Home';
 import { AboutUs } from './components/pages/AboutUs';
 import { Contact } from './components/pages/Contact';
 import { Estado } from './components/pages/Estado';
+import { RickMorty } from './components/pages/RickMorty';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/aboutus" element={<AboutUs/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/status" element={<Estado/>} />
+          <Route path="/rick-morty" element={<RickMorty/>}/>
         </Routes>
       </BrowserRouter>
     </div>

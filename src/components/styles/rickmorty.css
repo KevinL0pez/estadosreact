@@ -1,0 +1,29 @@
+.pjs {
+    background-color: rgb(240, 240, 240, 0.63);
+    width: 20rem;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    justify-content: space-around;
+}
+
+input {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.63);
+    color: black;
+}
+
+img{
+    border-radius: 15px;
+    width: 19.87rem;
+}

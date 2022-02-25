@@ -5,9 +5,10 @@ import { NavLink } from 'react-router-dom';
 export default function Navegation (props) {
     return(
         <div className="NavUp"> 
-            <NavLink to='/'>{props.page1}</NavLink>
-            <NavLink to='/aboutus'>{props.page2}</NavLink>
-            <NavLink to='/contact'>{props.page3}</NavLink>
+            <NavLink to='/'>Home</NavLink>
+            <NavLink to='/aboutus'>AboutUs</NavLink>
+            <NavLink to='/contact'>UseEffect</NavLink>
+            <NavLink to='/rick-morty'>Api R&M</NavLink>
         </div>
     );
 }

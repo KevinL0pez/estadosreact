@@ -6,9 +6,9 @@ import {EstadosHead} from '../layouts/EstadosHead'
 export const Estado = () => {
   return (
     <>
-        <Navegation page1="Home" page2="AboutUs" page3="Contact"/>
+        <Navegation/>
         <EstadosHead/>
-        <FooterHome link1="Estados" link2="Vision" link3="Contact"/>
+        <FooterHome/>
     </>
   )
 }

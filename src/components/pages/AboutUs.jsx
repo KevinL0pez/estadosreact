@@ -6,9 +6,9 @@ import FooterHome from '../UI/FooterHome';
 export const AboutUs = () => {
     return (
         <>
-            <Navegation page1="Home" page2="AboutUs" page3="Contact"/>
+            <Navegation/>
             <HeadAbt/>
-            <FooterHome link1="Estados" link2="Vision" link3="Contact"/>
+            <FooterHome/>
         </>
     )
 }
