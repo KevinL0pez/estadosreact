@@ -1,0 +1,83 @@
+.contenedor {
+    min-height:67.89vh;
+}
+
+.forms{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid;
+    width:30%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.userForm input {
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1rem;
+    padding: 1rem;
+    color: black;
+}
+
+.userForm hr {
+    display: flex;
+    margin: 1rem;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.btnLog {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.btnLog button {
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: rgba(231, 231, 231, 0.548);
+    color: black;
+}
+
+
+.form-register{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid;
+    width:30%;
+    background-color: rgba(235, 235, 235, 0.548);
+}
+
+.btnReg {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.btnReg button {
+    justify-content: center;
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: rgba(231, 231, 231, 0.548);
+    color: black;
+}
+
+.linkReg {
+    margin-top: 1rem;
+}
+
+.linkReg a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
