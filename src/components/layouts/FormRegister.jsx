@@ -9,6 +9,7 @@ export const FormRegister = () => {
   const [validaciones,setValidaciones] = useState(true);
 
   const captInicio = (e) => {
+    e.preventDefault()
     const campoNombre = document.getElementById('user_name').value
     const campoContraseña = document.getElementById('pass_word').value
     const campoUsuario = document.getElementById('name_user').value
@@ -21,6 +22,7 @@ export const FormRegister = () => {
       "name" : campoUsuario,
   }).then((response) => {
       console.log(response);
+      console.log("Usuario Registrado")
       
   }). catch((error) => {
       console.log(error)
@@ -41,7 +43,7 @@ export const FormRegister = () => {
       console.log("No se pudo completar el registro, debe completar el campo usuario")
     }else {
         setValidaciones(false)
-        console.log("Usuario Registrado")
+       
         captInicio()
     }
 
@@ -57,7 +59,7 @@ export const FormRegister = () => {
               <p>Nombre de usuario:</p>
               <input type="text" placeholder="Nombre de usuario" id="user_name"/>
               <p>Contraseña:</p>
-              <input type="text" placeholder="Contraseña"  id="pass_word"/>
+              <input type="password" placeholder="Contraseña"  id="pass_word"/>
               <p>Nombre:</p>
               <input type="text" placeholder="Nombre"  id="name_user"/>
               <hr />

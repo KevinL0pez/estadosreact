@@ -40,6 +40,7 @@
     padding: 1rem;
     background-color: rgba(231, 231, 231, 0.548);
     color: black;
+    cursor:pointer;
 }
 
 
@@ -69,6 +70,7 @@
     padding: 1rem;
     background-color: rgba(231, 231, 231, 0.548);
     color: black;
+    cursor:pointer;
 }
 
 .linkReg {
