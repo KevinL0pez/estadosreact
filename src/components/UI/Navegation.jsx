@@ -9,8 +9,8 @@ export default function Navegation (props) {
             <NavLink to='/aboutus'>AboutUs</NavLink>
             <NavLink to='/contactar'>Contact</NavLink>
             <NavLink to='/rick-morty'>Api R&M</NavLink>
-            <NavLink to='/login'>Loguearse</NavLink>
-            <NavLink to='/register'>Registrarse</NavLink>
+            <NavLink to='/login'>Login</NavLink>
+            <NavLink to='/register'>Register</NavLink>
         </div>
     );
 }
