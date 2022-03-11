@@ -45,28 +45,34 @@
 .form-email input {
   font-size: 1rem;
   background: transparent;
+  background-color: #a3a8af;
   box-shadow: 0 -2px 2px rgb(199, 194, 194);
   border-radius: 20px;
-  color: #ffff;
+  color: rgb(0, 0, 0);
+  margin-bottom: 0.5rem;
 }
 
 .form-email textarea {
   border-radius: 10px;
   background-color: #a3a8af;
   padding: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .form-email button {
+  font-family: 'Shadows Into Light';
   width: 8rem;
   border-radius: 20px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: green;
   background-color: #9df59d;
   cursor: pointer;
+  margin-top: 0.5rem;
 }
 
 .form-email button:hover,
 .form-email button:focus {
+  font-family: 'Shadows Into Light';
   background-color: green;
   font-size: 1.5rem;
   font-weight: 700;

@@ -7,8 +7,8 @@ export default function Navegation (props) {
         <div className="NavUp"> 
             <NavLink to='/'>Home</NavLink>
             <NavLink to='/aboutus'>AboutUs</NavLink>
-            <NavLink to='/contactar'>Contact</NavLink>
             <NavLink to='/rick-morty'>Api R&M</NavLink>
+            <NavLink to='/contactar'>Contact</NavLink>
             <NavLink to='/login'>Login</NavLink>
             <NavLink to='/register'>Register</NavLink>
         </div>
