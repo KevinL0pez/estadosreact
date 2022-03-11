@@ -4,7 +4,7 @@ import '../styles/rickmorty.css'
 export const HeadRm = () => {
 
     const [personajes, setPersonaje] = useState([])
-    const [nombre, setNombre] = useState()
+    const [nombre, setNombre] = useState([])
 
     const url = 'https://rickandmortyapi.com/api/character/?name='
     const urlModificada=url+nombre

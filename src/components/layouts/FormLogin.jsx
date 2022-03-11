@@ -72,7 +72,7 @@ export const FormLogin = () => {
                 <div className="btnLog">
                     {validaciones ? <NavLink to="/login"><button onClick={validacion}>Iniciar sesión</button></NavLink> : <NavLink to="/register"><button onClick={validacion}>Iniciar sesión</button></NavLink>}
                 </div>
-                <div className="linkReg">
+                <div className="linkForm">
                     <NavLink to="/register">¿No tienes una cuenta? Registrate</NavLink>
                 </div>
             </form>

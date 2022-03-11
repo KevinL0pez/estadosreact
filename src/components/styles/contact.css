@@ -50,6 +50,7 @@
   border-radius: 20px;
   color: rgb(0, 0, 0);
   margin-bottom: 0.5rem;
+  outline: none;
 }
 
 .form-email textarea {
@@ -57,6 +58,8 @@
   background-color: #a3a8af;
   padding: 0.5rem;
   margin-bottom: 0.5rem;
+  outline: none;
+  color: black;
 }
 
 .form-email button {

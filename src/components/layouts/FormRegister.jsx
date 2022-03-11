@@ -67,6 +67,9 @@ export const FormRegister = () => {
             <div className="btnReg">
               {validaciones ? <NavLink to="/register"><button onClick={validacion}>Registarse</button></NavLink> : <NavLink to="/login"><button onClick={validacion}>Registarse</button></NavLink>}
             </div>
+            <div className="linkForm">
+              <NavLink to="/login">¿Ya tienes una cuenta? Inicia Sesión</NavLink>
+            </div>
         </form>
       </div>
     </>

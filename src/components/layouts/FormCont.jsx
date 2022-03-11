@@ -17,15 +17,17 @@ export const FormCont = () => {
       <h1 className="title-form">Contact Us</h1>
       <form action="" className="form-email" onSubmit={sendEmail}>
         <label>Name</label>
-        <input type="text" name="user_name"/>
+        <input type="text" name="user_name" placeholder="Ingresa tu nombre"/>
         <hr />
 
         <label>Email</label>
-        <input type="email" name="user_email"/>
+        <input type="email" name="user_email" placeholder="Ingresa tu correo"/>
         <hr />
 
         <label>Message</label>
-        <textarea name="user_message" id="" cols="30" rows="10"></textarea>
+        <textarea 
+          name="user_message" id="" cols="30" rows="10" placeholder="Ingresa el mensaje">
+        </textarea>
         <hr />
         <button>Send</button>
       </form>
