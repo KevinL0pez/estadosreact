@@ -1,13 +1,15 @@
 import '../styles/forms.css'
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import axios from 'axios';
 
 
 export const FormLogin = () => {
 
-    const captInicio = (e) => {
-        e.preventDefault()
+    const [validaciones, setValidaciones] = useState(true)
+
+    const captInicio = () => {
+        // event.preventDefault()
         const campoNombre = document.getElementById('username').value
         const campoContraseña = document.getElementById('password').value
         // console.log(campoNombre)
@@ -28,6 +30,21 @@ export const FormLogin = () => {
     }). catch((error) => {
         console.log(error)
     })
+    }
+
+    const validacion = () => {
+        const campoContraseña = document.getElementById('password').value
+        const campoUsuario = document.getElementById('username').value
+    
+        if (campoUsuario == ""){
+          console.log("Debe ingresar algún date en el campo nombre de usuario")
+        } else if (campoContraseña == ""){
+          console.log("Debe ingresar algún date en el campo contraseña")
+        } else {
+            setValidaciones(false)
+            captInicio()
+        }
+    
     }
 
 
@@ -53,7 +70,7 @@ export const FormLogin = () => {
                     <hr />
                 </div>
                 <div className="btnLog">
-                    <button onClick={captInicio}>Iniciar sesión</button>
+                    {validaciones ? <NavLink to="/login"><button onClick={validacion}>Iniciar sesión</button></NavLink> : <NavLink to="/register"><button onClick={validacion}>Iniciar sesión</button></NavLink>}
                 </div>
                 <div className="linkReg">
                     <NavLink to="/register">¿No tienes una cuenta? Registrate</NavLink>

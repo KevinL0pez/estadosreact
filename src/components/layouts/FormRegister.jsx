@@ -36,11 +36,11 @@ export const FormRegister = () => {
     const campoUsuario = document.getElementById('name_user').value
 
     if(campoNombre == "") {
-      console.log("No se pudo completar el registro, debe completar el campo nombre")
+      console.log("No se pudo completar el registro, debe ingresar un dato en el campo nombre")
     } else if(campoContraseña == ""){
-      console.log("No se pudo completar el registro, debe completar el campo contraseña")
+      console.log("No se pudo completar el registro, debe ingresar un dato en el campo contraseña")
     } else if(campoUsuario == ""){
-      console.log("No se pudo completar el registro, debe completar el campo usuario")
+      console.log("No se pudo completar el registro, debe ingresar un dato en el campo usuario")
     }else {
         setValidaciones(false)
        
