@@ -15,11 +15,8 @@ export const HeadRm = () => {
         .then(data => setPersonaje(data.results))
     }
 
-    useEffect(() => {
-        fetchApi()
-    }, [])
-
     const mostrar = (evento) => {
+        
         setNombre(evento.target.value)
         if (evento.keyCode == "") {
             fetchApi(urlModificada)
@@ -31,11 +28,11 @@ export const HeadRm = () => {
             <h2>Personajes de Rick and Morty</h2>
             <input type="text" id="input" onKeyPress={mostrar} placeholder="Busca un persona"/>
             <div className="contenedor">
-                {personajes.map((index, key)=>{
+                {personajes.map((item, key)=>{
                     return (
-                        <div className="pjs">
-                            <h1>{index.name}</h1>
-                            <img src={index.image} alt={index.name} />
+                        <div key={key} className="pjs">
+                            <h1>{item.name}</h1>
+                            <img src={item.image} alt={item.name} />
                         </div>
                     )
                 })

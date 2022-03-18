@@ -7,7 +7,7 @@ export default function Propiedades (props) {
         <footer className="BotLinks">
             <NavLink to='/status'>Estados</NavLink>
             <NavLink to='/contact'>UseEffect</NavLink>
-            <a href="">Indefinido</a>
+            <NavLink to='/googlemaps'>Google Maps</NavLink>
         </footer>
     );
 }

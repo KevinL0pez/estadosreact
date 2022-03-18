@@ -10,6 +10,7 @@ import { RickMorty } from './components/pages/RickMorty'
 import { Login } from './components/pages/Login'
 import { Register } from './components/pages/Register'
 import { Contactar } from './components/pages/Contactar'
+import GoogleMaps from './components/pages/GoogleMaps'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/login" element={<Login/>}/>
           <Route path="/register" element={<Register/>}/>
           <Route path="/contactar" element={<Contactar/>}/>
+          <Route path="/googlemaps" element={<GoogleMaps/>}/>
         </Routes>  
       </BrowserRouter>
     </div>
