@@ -8,11 +8,11 @@ class GoogleMaps extends Component {
             <Map
                 google = {this.props.google}
                 style = {{width: '100%', height: '100%'}}
-                zoom = {10}
+                zoom = {15}
 
                 initialCenter = { {
-                        lat: 53.2734,
-                        lng: -7.77832031
+                        lat: 4.541114,
+                        lng: -75.668008
                     }
                 }
 
@@ -29,3 +29,5 @@ export default GoogleApiWrapper ({
 }) (GoogleMaps)
 
 // Archivo JSON - Ubicaciones (Pintar las ubicaciones en el map)
+
+// Coordenadas de la ubicación (Longitud - Latitud)
